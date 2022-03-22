@@ -61,6 +61,8 @@ const bookAges = books.map(book => book.age);
 
 const promedio = (bookAges.reduce((valPrevio, valActual) => valPrevio + valActual, 0))/bookAges.length;
 
+console.log(promedio);
+
 const filteredBooks = books.filter(book => book.genre === "Mistery");
 
 console.log(filteredBooks);
